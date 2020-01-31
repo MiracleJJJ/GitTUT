@@ -3,3 +3,4 @@ touch new.txt #新建文件
 git add new.txt #添加进版本库
 git add . #添加所有
 git commit -m "description" #提交更改
+git status #查看状态
