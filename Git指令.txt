@@ -11,3 +11,5 @@ git reset --hard HEAD^ #回退到上个版本。HEAD表示当前版本，上一�
 git reset --hard commit ID #通过commitID回退
 git reflog 查看命令历史
 git checkout -- new.txt #撤销文件在工作区的修改
+git reset HEAD file #撤销暂存区的修改
+git rm #删除文件
