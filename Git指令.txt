@@ -21,4 +21,10 @@ git checkout -b dev #创建dev分支并切换到dev分支;新版git使用git swi
 git checkout dev #切换至dev分支）
 git branch #查看当前分支
 git merge <分支名> #合并某分支到当前分支
-git branch -d <分支名> #删除分支
+git branch -d <分支名> #删除分支；-D 强行删除
+
+git stash #储存当前工作区
+git stash list #查看储存的工作区列表
+git stash apply stash@{0} #恢复指定stash
+git stash pop #回复并删除stash
+git cherry-pick <提交码> #复制指定的提交到当前分支
